@@ -1,0 +1,14 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.bg-image{
+    background-image: url('sea-tree.jpg');
+    height: 100vh;
+}
+
+img{
+    height: 100vh;
+    margin: 0px;
+}
