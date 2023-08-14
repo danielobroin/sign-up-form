@@ -26,18 +26,32 @@ body{
 
  #rightSide{
      display: grid;
-
+     background-color: rgb(236, 236, 236);
 }
 
-#formContainer{
+#centreDiv{
   display: grid;
+  background-color: white;
+  box-shadow: 0px 5px rgba(0,0, 0, .2);
 }
+
 
 form{
+    height: 300px;
+    /*background-color: indigo;*/
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+    grid-template-columns: repeat(auto-fit, minmax(49%, 1fr))
+    
 }
+
+.containerDiv{
+    height: 30px;
+}
+
+label, input{display: block}
+
+label{text-transform: capitalize;}
 
 #imgCredit{
     align-self: flex-end;
@@ -45,6 +59,6 @@ form{
     font-size: 1.5em;
 }
 
-#imgCredit a{
+ #imgCredit a{
     color: black;
 }
